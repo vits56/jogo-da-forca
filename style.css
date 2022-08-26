@@ -271,4 +271,20 @@ footer p a {
     margin-top: -50px;
   }
   
+  /*cell phone keyboard*/
+button {
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 5px;
+  width: 35px;
+  height: 35px;
+  color: #080808;
+}
+
 }
