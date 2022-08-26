@@ -8,6 +8,45 @@ body {
   background: #E5E5E5;
 }
 
+.box {
+  text-align: center;
+  margin-top: 300px;
+}
+
+#btn-jogo {
+  height: 105px;
+  width: 317px;
+  border-radius: 24px;
+  outline: none;
+  background-color: #0A3871;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 19px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+#add-word {
+  height: 105px;
+  width: 317px;
+  border-radius: 24px;
+  outline: none;
+  background-color: #0A3871;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 19px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
 .container-1 {
   display: flex;
   justify-content: center;
