@@ -80,5 +80,38 @@ footer p a {
   h1 {
     font-size: 20px;
   }
+
+  .container-2 {
+    display: block;
+    
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .button-inicio {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+  }
+
+  .button-inicio a input {
+    justify-content: center;
+    margin: 50px;
+    width: 50px;
+    background-color: #0A3871;
+    font-size: 10px;
+    color: #FFFFFF;
+    border: 1px solid #070707;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .container-3 {
+    margin-top: -50px;
+  }
   
 }
