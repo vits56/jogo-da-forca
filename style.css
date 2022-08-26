@@ -1,48 +1,169 @@
-header h1 {
+body {
+  background: #E5E5E5;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.container-2-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+
+}
+
+/*cell phone keyboard*/
+.container-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 56px;
+  text-transform: uppercase;
+  margin-top: 60px;
+
+}
+
+h3 {
   text-align: center;
-  font-size: 2em;
-  font-weight: bold;
-  color: rgb(26, 24, 24);
-}
-
-/*um botao em cima do outro*/
-.inicio {
-  text-align: center; 
-  padding: 250px;
-}
-
-.inicio div {
-  padding-top: 20px;
-}
-
-
-
-.novo-jogo {
-  text-align: center;
-  border-radius: 25px;
-  font-size: 1em;
-  font-weight: bold;
-  background: rgb(138, 138, 221);
-  color: rgb(26, 24, 24);
-}
-
-.adicionar-palavra {
-  text-align: center;
-  border-radius: 25px;
-  font-size: 1em;
-  font-weight: bold;
-  background: rgb(138, 138, 221);
-  color: rgb(26, 24, 24);
+  text-transform: uppercase;
+  margin-top: 10px;
 }
 
 footer p {
+  font-size: 20px;
+}
+
+p {
   text-align: center;
-  font-size: 0.8em;
-  color: rgb(26, 24, 24);
-  /*fixar o rodapé*/
-  position: fixed;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #080808;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #070707;
+  width: 40px;
+  margin: 5px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*cell phone keyboard*/
+button {
+  background: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  color: #080808;
+}
+/*Botao do perdedor*/
+button-lost {
+  background: rgb(243, 132, 132);
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  color: #DC1F27;
+}
+/*Botao do vencedor*/
+button-won {
+  background: rgb(0, 255, 0);
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  color: #080808;
+}
+
+button:hover {
+  background-color: #504a4b;
+}
+
+button.new-bt {
+  width: auto;
+  padding: 10px;
+  color: aqua;
+  background: green;
+}
+
+.certain,
+.certain:hover {
+  background: #3aa394;
+  border: 1px solid #3aa394;
+  cursor: inherit;
+}
+
+.wrong,
+.wrong:hover {
+  background: #d3ad69;
+  border: 1px solid #d3ad69;
+  cursor: inherit;
+}
+
+/* botao centralizado no meio da tela*/
+.button-inicio a input {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  width: 100px;
+  padding: 20px 10px;
+  background-color: #504a4b;
+  color: #FFFFFF;
+  border: 1px solid #504a4b;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+footer {
+
   bottom: 0;
-  left: 0;
-  right: 0;
-  /*fim*/
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #504a4b;
 }

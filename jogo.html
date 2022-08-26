@@ -4,26 +4,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style-index.css">
+  <link rel="stylesheet" href="style.css">
   <title>Jogo da forca</title>
 </head>
 <body>
-
   <header class="container-1">
     <h1>Jogo da forca</h1>
   </header>
 
-  <div class="box">
-    <a href="jogo.html">
-      <input type="button" value="Começar a Jogar" id="btn-jogo">
-    </a>
+  <section class="container-2">
+    <img id="forca" src="images/forca.png" alt="">
+    <div id="word" class="container-2-2"></div>
 
-    <!--<input type="button" value="Adicionar palavra" id="add-word" class="add-word">-->
+    <div id="new"></div>
+  </section>
+
+  <section id="letters" class="container-3"></section>
+
+  <div class="button-inicio">
+    <a href="index.html">
+      <input type="button" value="Voltar">
+    </a>
   </div>
 
   <footer>
     <p>Feito com ❤️ por <a href="https://github.com/vits56">Bruno Bastos Duarte</a></p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
