@@ -64,7 +64,7 @@ p {
 }
 
 footer {
-
+  margin-bottom: 20px;
   bottom: 0;
   position: fixed;
   width: 100%;
@@ -74,4 +74,11 @@ footer {
 footer p a {
   text-decoration: none;
   color: #504a4b;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+  
 }
