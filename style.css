@@ -9,8 +9,11 @@ body {
 }
 
 .box {
-  text-align: center;
-  margin-top: 300px;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #btn-jogo {
