@@ -1,4 +1,4 @@
-let words = ["ubuntu", "fedora", "popos"];
+let words = ["ubuntu", "fedora", "popos", "centos", "debian", "kali", "arch", "gentoo", "suse", "redhat", "mandriva", "opensuse", "linuxmint", "linux"];
 
 
 let word = words[Math.floor(Math.random() * words.length)];
@@ -18,7 +18,7 @@ for (position = 0; position < word.length; position++) {
     div.appendChild(span);
 }
 
-let keyboard = "qwertyuiopasdfghjklçzxcvbnm";
+let keyboard = "abcdefghijklmnopqrstuvwxyz";
 let letters = keyboard.split("");
 
 for (position = 0; position < letters.length; position++) {

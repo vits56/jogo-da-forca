@@ -83,9 +83,9 @@ button {
 }
 /*Botao do perdedor*/
 button-lost {
-  background: rgb(243, 132, 132);
+  background: red;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   padding: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -94,13 +94,13 @@ button-lost {
   margin: 5px;
   width: 50px;
   height: 50px;
-  color: #DC1F27;
+  color: black;
 }
 /*Botao do vencedor*/
 button-won {
-  background: rgb(0, 255, 0);
+  background: green;
   border: none;
-  border-radius: 5px;
+  border-radius: 25px;
   padding: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -137,22 +137,26 @@ button.new-bt {
   cursor: inherit;
 }
 
-/* botao centralizado no meio da tela*/
+/* botao voltar*/
 .button-inicio a input {
   display: flex;
   justify-content: center;
   margin: 5px;
   width: 100px;
   padding: 20px 10px;
-  background-color: #504a4b;
+  background-color: #0A3871;
   color: #FFFFFF;
-  border: 1px solid #504a4b;
-  border-radius: 5px;
+  border: 1px solid #070707;
+  border-radius: 25px;
   font-weight: bold;
   font-size: 1em;
   line-height: 1em;
   cursor: pointer;
   text-transform: uppercase;
+}
+
+#new {
+  text-align: center;
 }
 
 footer {
