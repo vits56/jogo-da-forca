@@ -1,0 +1,48 @@
+header h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(26, 24, 24);
+}
+
+/*um botao em cima do outro*/
+.inicio {
+  text-align: center; 
+  padding: 250px;
+}
+
+.inicio div {
+  padding-top: 20px;
+}
+
+
+
+.novo-jogo {
+  text-align: center;
+  border-radius: 25px;
+  font-size: 1em;
+  font-weight: bold;
+  background: rgb(138, 138, 221);
+  color: rgb(26, 24, 24);
+}
+
+.adicionar-palavra {
+  text-align: center;
+  border-radius: 25px;
+  font-size: 1em;
+  font-weight: bold;
+  background: rgb(138, 138, 221);
+  color: rgb(26, 24, 24);
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.8em;
+  color: rgb(26, 24, 24);
+  /*fixar o rodapé*/
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /*fim*/
+}
