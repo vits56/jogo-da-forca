@@ -272,7 +272,7 @@ footer p a {
   }
   
   /*cell phone keyboard*/
-button {
+  button {
   background: #fff;
   border: none;
   border-radius: 5px;
@@ -285,6 +285,24 @@ button {
   width: 35px;
   height: 35px;
   color: #080808;
-}
+  }
+
+  #btn-jogo {
+    height: 55px;
+    width: 150px;
+    border-radius: 24px;
+    outline: none;
+    background-color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
 
 }
