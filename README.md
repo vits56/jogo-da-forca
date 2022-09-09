@@ -22,13 +22,14 @@
 
 Projeto realizado durante o Oracle Next Education realizado pela Oracle + Alura. Foi desenvolvido uma aplicação de jogo da forca.
 
+Foi feito a responsividade para mobile e desktop.
 
-## 🧑‍💻 Tecnologias utilizadas
+## 🛠  🧑‍💻 Tecnologias
+
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-
 
 ## Requisitos
 
